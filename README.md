@@ -18,10 +18,12 @@ FROM --platform=linux/amd64 php:8.1-fpm を FROM php:8.1-fpm に変更。
 2. `composer install`
 3. 「.env.example」ファイルを コピーして「.env」を作成し、DB の設定を変更
 
+```text
 DB_HOST=mysql
 DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
+```
 
 5. アプリケーションキーの作成
 
@@ -43,7 +45,7 @@ php artisan db:seed
 
 ## ER 図
 
-.drawio.png
+![ER図](.drawio.png)
 
 ## URL
 
