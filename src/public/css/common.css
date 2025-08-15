@@ -1,0 +1,18 @@
+.header {
+border: solid 1px #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header__logo {
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 40px;
+}

@@ -1,0 +1,60 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+}
+
+main::before {
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-size: 20vw;
+    color: rgba(139, 121, 105, 0.05);
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.thanks__content {
+    position: relative;
+    z-index: 2;
+    color: #8B7969;
+    text-align: center;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 9px;
+    width: 30%;
+    height: 45px;
+    border: none;
+    background: #8B7969;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}

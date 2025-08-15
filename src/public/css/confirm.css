@@ -1,0 +1,79 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__heading h2 {
+    font-size: 35px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid rgba(224, 223, 222, 1);
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px 15px 15px 30px;
+    width: 30%;
+    border-bottom: 1px solid rgba(224, 223, 222, 1);
+    background-color: rgba(186, 168, 153, 1);
+    color: #fff;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px 15px 15px 30px;
+    border-bottom: 1px solid rgba(224, 223, 222, 1);
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #8B7969;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    margin-right: 50px;
+    padding: 3px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    background: #8B7969;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form__button a {
+    color: #8B7969;
+    font-size: 20px;
+}

@@ -1,0 +1,118 @@
+.header {
+    border: solid 1px #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header__logo {
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.header__button {
+    position: absolute;
+    right: 95px;
+}
+
+.header__button button {
+    padding: 5px 20px;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(217, 198, 181, 1);
+    border: 1px solid rgba(217, 198, 181, 1);
+    background-color: rgba(240, 240, 240, 0.6);
+}
+
+.header__button button a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* main */
+.register-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(139, 121, 105, 1);
+    background-color: rgba(241, 236, 231, 1);
+    min-height: 100vh;
+}
+
+.register-form__heading {
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 77px 145px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(197, 185, 176, 1);
+    border-radius: 10px;
+}
+
+.form__group {
+    margin-bottom: 45px;
+}
+
+.form__group-title {
+    margin-bottom: 14px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 14px;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(244, 244, 244, 1);
+    border: none;
+    appearance: none;
+}
+
+.form__button {
+    margin-top: 20px;
+}
+
+.form__button-submit {
+    padding: 10px 40px;
+    border: none;
+    background: rgba(130, 117, 106, 1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input::placeholder
+select {
+    color: rgba(190, 177, 166, 1);
+}
