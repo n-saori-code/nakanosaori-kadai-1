@@ -54,7 +54,7 @@ php artisan db:seed
 
 ## ER 図
 
-![ER図](./er-diagram.png)
+![ER図](src/er-diagram.png)
 
 ## URL
 
